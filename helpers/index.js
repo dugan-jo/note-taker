@@ -1,12 +1,8 @@
-const express = require('express');
-const path = require('path');
-const fs = require('fs');
-const helpers = require('./helpers/index')
+const uuid = require('./uuid');
+const note = require('./note')
 
 
-const PORT = process.enr.PORT || 3001
 
-const app = express();
 
 // MIDDLEWARE - - - - - - - - - - - - - - - -
 app.use(express.json());
@@ -14,3 +10,8 @@ app.use(express.urlencoded({ extended: true}));
 app.use(express.static('public'));
 // MIDDLEWARE - - - - - - - - - - - - - - - -
 
+
+module.exports = {
+    uuid,
+    note,
+}
