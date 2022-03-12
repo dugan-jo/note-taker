@@ -13,7 +13,8 @@ const app = express();
 //  
 
 // PORT INFROMATION - - - - - START - - - - - PORT INFROMATION - - - - - START - - - - - PORT INFROMATION
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 1234;
+
 // PORT INFROMATION - - - - -  END  - - - - - PORT INFROMATION - - - - -  END  - - - - - PORT INFROMATION
 
 //
@@ -122,7 +123,7 @@ app.post('/api/notes', (req, res) => {
   }
 });
 
-//  - - - - - - - - - - - - - - - - - - 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 app.post("/api/notes", (req, res) => {
 
@@ -152,7 +153,7 @@ app.post("/api/notes", (req, res) => {
 
     console.log(response);
     res.status(201).json(response);
-    
+
   } else {
 
     res.status(500).json("ERROR in posting review");
