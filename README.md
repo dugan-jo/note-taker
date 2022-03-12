@@ -124,11 +124,6 @@ This homework is graded based on the following criteria:
 
 ## Review
 
-You are required to submit BOTH of the following for review:
+![screencapture-my-personal-note-taker-herokuapp-notes-2022-03-11-20_55_08](https://user-images.githubusercontent.com/75266984/158002950-2cb90f0a-5420-45e0-97e4-211740d99973.png)
 
-* The URL of the functional, deployed application.
 
-* The URL of the GitHub repository, with a unique name and a README describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
